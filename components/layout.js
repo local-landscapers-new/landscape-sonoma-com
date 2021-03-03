@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Nav from './Nav'
 import Logo from './Logo'
 import Hero from './Hero'
+import Footer from './Footer'
 
 const name = 'Local Landscapers'
 const tagline = 'Locally grown landscape specialists in Sonoma.'
@@ -42,12 +43,15 @@ export default function Layout({ children, home }) {
       <main className="">{children}</main>
 
       {!home && (
-        <div>
+        <div className="p-5">
           <Link href="/">
             <a>← Back to home</a>
           </Link>
         </div>
       )}
+
+    <Footer />
+
     </div>
     </>
   )

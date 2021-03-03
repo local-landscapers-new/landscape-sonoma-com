@@ -1,35 +1,33 @@
-import React from 'react'
-import { footerStyles } from 'styles'
+function Footer() {
+  return (
+    <div className="text-gray-50 py-2 px-5 bg-gray-900">
+      <div className="text-center container mx-auto sm:w-3/4 p-2">
 
-/**
- * Site footer component
- */
-const Footer = () => (
-  <footer>
-    <p>
-      Proudly published with &nbsp;
-      <a
-        href="https://prismic.io"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Prismic
-      </a>
-      <br />
-      <a
-        href="https://prismic.io"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          className="footer-logo"
-          src="/images/logo-prismic.svg"
-          alt="Gray Prismic logo"
-        />
-      </a>
-    </p>
-    <style jsx global>{footerStyles}</style>
-  </footer>
-)
+        <div className="flex justify-between items-center">
+
+          <img src="/images/logo-sonoma-right-darkmode.png" className="max-w-xs" />
+          <nav className="text-right">
+            <ul>
+              <li><a href="#" className="font-bold">Home</a></li>
+              <li><a href="#">Services</a>
+                <ul>
+
+                </ul>
+              </li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+
+          </nav>
+        </div>
+
+        <h1 className="mt-5 text-center text-sm tracking-wider font-light">Copyright 2021 Local Landscapers.</h1>
+        
+      </div>
+    </div>
+  )
+}
 
 export default Footer

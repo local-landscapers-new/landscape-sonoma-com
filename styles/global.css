@@ -20,6 +20,7 @@
 .bg-hero {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/water-feature.jpg");
   background-color: white;
+  background: cover no-repeat;
   min-height: 70vh;
   display: flex;
   justify-content: center;

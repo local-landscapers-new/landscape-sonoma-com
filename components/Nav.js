@@ -4,10 +4,10 @@ import Link from 'next/link'
 
 function NavItem({ location, label }) {
   return (
-    <li className="ml-5">
+    <li className="mx-3 my-1">
       <Link
         href={location}
-        className="hover:text-gray-50 whitespace-nowrap"
+        className="hover:text-gray-300"
       >
         {label}
       </Link>
@@ -19,12 +19,12 @@ function Nav() {
   const mobileRef = useRef();
   useOnClickOutside(mobileRef, () => setOpen(false));
   return (
-    <div className="sticky top-0 z-10 print:hidden">
+    <div className="print:hidden bg-gray-500 text-gray-50 text-xl font-light py-1">
       <nav className="">
         {/* wide nav - row */}
-        <div className="hidden sm:flex justify-evenly md:items-center">
+        <div className="hidden sm:flex justify-around w-full md:items-center">
 
-            <ul className="flex justify-between flex-wrap">
+            <ul className="flex flex-wrap justify-around">
               <NavItem location="/" label="Home" />
               <NavItem location="/services" label="Services" />
               <NavItem location="/portfolio" label="Portfolio" />
@@ -37,11 +37,11 @@ function Nav() {
         {/* mobile nav - column */}
         <div className="sm:hidden">
           <ul>
-            <li className="flex">
+            <li className="flex justify-center items-center">
               {isOpen ? (
                 <ul
                   ref={mobileRef}
-                  className="flex flex-col text-right"
+                  className="flex flex-col text-center"
                   onClick={() => setOpen(false)}
                 >
               <NavItem location="/" label="Home" />
@@ -56,7 +56,7 @@ function Nav() {
                   onClick={() => setOpen(true)}
                   className="mx-auto"
                 >
-                  <svg className="w-5 h-5 my-1 mx-auto fill-current text-gray-900">
+                  <svg className="w-7 h-7 my-1 mx-auto fill-current text-gray-50">
                     <use xlinkHref="/assets/icons/menu.svg#icon-menu" />
                   </svg>
                 </button>

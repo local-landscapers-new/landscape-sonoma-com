@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import Nav from './Nav'
-import HeaderBar from './HeaderBar'
+import Logo from './Logo'
 import Hero from './Hero'
 
 const name = 'Local Landscapers'
@@ -31,10 +31,12 @@ export default function Layout({ children, home }) {
 
       <div className="body-font antialiased text-lg text-black bg-gray-300">
 
-      <HeaderBar />
+      <Logo />
       <Nav />
-      <Hero />
 
+      {home ? (
+      <Hero />
+      ) : null }
 
 
       <main className="">{children}</main>

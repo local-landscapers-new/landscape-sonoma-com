@@ -26,11 +26,11 @@ function Nav() {
 
             <ul className="flex justify-between flex-wrap">
               <NavItem location="/" label="Home" />
-              <NavItem location="/plants" label="Plants" />
-              <NavItem location="/botany" label="Botany" />
-              <NavItem location="/horticulture" label="Horticulture" />
-              <NavItem location="/taxonomy" label="Taxonomy" />
+              <NavItem location="/services" label="Services" />
+              <NavItem location="/portfolio" label="Portfolio" />
+              <NavItem location="/testimonials" label="Testimonials" />
               <NavItem location="/about" label="About" />
+              <NavItem location="/contact" label="Contact" />
             </ul>
           </div>
 
@@ -45,18 +45,18 @@ function Nav() {
                   onClick={() => setOpen(false)}
                 >
               <NavItem location="/" label="Home" />
-              <NavItem location="/plants" label="Plants" />
-              <NavItem location="/botany" label="Botany" />
-              <NavItem location="/horticulture" label="Horticulture" />
-              <NavItem location="/taxonomy" label="Taxonomy" />
+              <NavItem location="/services" label="Services" />
+              <NavItem location="/portfolio" label="Portfolio" />
+              <NavItem location="/testimonials" label="Testimonials" />
               <NavItem location="/about" label="About" />
+              <NavItem location="/contact" label="Contact" />
                 </ul>
               ) : (
                 <button
                   onClick={() => setOpen(true)}
                   className="mx-auto"
                 >
-                  <svg className="w-5 h-5 my-1 mx-auto fill-current text-indigo-500">
+                  <svg className="w-5 h-5 my-1 mx-auto fill-current text-gray-900">
                     <use xlinkHref="/assets/icons/menu.svg#icon-menu" />
                   </svg>
                 </button>

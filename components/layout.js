@@ -1,11 +1,13 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import SimplerNav from './SimplerNav'
 import Image from 'next/image'
+import Nav from './Nav'
+import HeaderBar from './HeaderBar'
+import Hero from './Hero'
 
-const name = 'Edible Wild World'
-const tagline = 'Food is everywhere'
-export const siteTitle = 'Edible Wild World'
+const name = 'Local Landscapers'
+const tagline = 'Locally grown landscape specialists in Sonoma.'
+export const siteTitle = 'Local Landscapers'
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +16,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.svg" />
         <meta
           name="description"
-          content="How to identify and work with some of the world's most common edible wild plants. Food is everywhere!"
+          content="Landscape contractors in Sonoma, California."
         />
         <meta
           property="og:image"
@@ -25,40 +27,13 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
+
+
       <div className="body-font antialiased text-lg text-black bg-gray-300">
 
-      <header className="text-indigo-500 border-b border-t border-indigo-500">
-      <div className="py-8 px-4 text-center">
-
-        <h1 className="font-bold text-5xl tracking-tight">
-          {name}
-        </h1> 
-      </div>
-      {home ? (
-          <>
-      <div className="bg-gradient-to-b
-                      from-indigo-700
-                      to-indigo-500
-                      h-68
-                      pb-4
-                      ">
-            <Image
-                src="/images/hero.jpg"
-                layout="intrinsic"
-                width={2000}
-                height={1500}
-                />               
-        <h2 className="
-                       header-font tracking-tight text-center text-6xl text-white font-black
-                       py-10 
-                       ">
-        {tagline}
-        </h2>
-      </div> 
-
-      </>
-        ) : null }
-      </header>
+      <HeaderBar />
+      <Nav />
+      <Hero />
 
 
 

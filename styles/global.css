@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.header-font {
+  font-family: 'Playfair Display', serif;
+  
+}
+
+.body-font {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.bg-hero {
+  background-image: linear-gradient(rgba(99, 102, 241,0.6), rgba(99, 102, 241,0.6)), url("/images/hero.jpg");
+  background-color: white;
+}
+
+
+#blog-post p {
+  margin: 1.5rem 0;
+  max-width: 600px;
+}
+
+#blog-post h1,
+#blog-post h2,
+#blog-post h3,
+#blog-post h4,
+#blog-post h5,
+#blog-post h6 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 900;
+}

@@ -1,0 +1,108 @@
+---
+title: "Garlic Mustard"
+latinName: "Alliaria petiolata"
+featurePhoto: "/images/plants/garlic-mustard.jpg"
+date: "2020-01-01"
+---
+ 
+### Who:
+
+Alliaria petiolata
+
+Also know as hedge garlic, Jack-by-the-hedge (British folk name)
+
+Brassicaceae (Brassica / Mustard) family
+
+Garlic mustard’s genus name alludes to the fact that its aroma is similar to onions: Alliaria = “resembling allium.” Aside from this unique trait, it shares many common features with other edible members of the Mustard family.
+
+### What:
+
+Wild cousin of our cultivated mustards, once held in high regard by Europeans but now considered invasive in North America. 
+
+All parts are edible. 
+
+### Where:
+
+A. petiolata is a common invasive weed on the forest floor and in floodplains throughout North America, especially on woodland edges and along trail sides.
+
+Native to Eurasia and Northern Africa, garlic mustard was brought to North America by European settlers in the 1800s. It has since spread throughout the continent, and it poses an ongoing threat to native biodiversity wherever it lands.
+
+Garlic mustard dominates seemingly endless swaths of land throughout the Northeast, and has most recently expanded its range into the mountain west and Pacific Northwest, all the way up to Alaska.
+
+ 
+Garlic mustard’s leaves are easy to spot thanks to their deep venation.
+
+### When:
+
+As a biennial herb, garlic mustard germinates in fall across most of its range and emerges as a rather inconspicuous basal rosette in its first year. After overwintering, it becomes much more noticeable as one of the first green things to be seen in the woods by February or March. 
+
+Garlic mustard greens are ideally harvested early in the season, and become unpalatably bitter for many people once they develop flower stalks in April or May. 
+
+Seeds may be harvested when they mature in May and June. The root may be harvested anytime.
+
+### Why:
+
+Garlic mustard was intentionally introduced to North America by European settlers due to their fondness of it as a wild vegetable in the Old World. They never could have known what dire consequences this would have on the native spring wildflowers of this continent — nor that we (descendants of colonizers) would all collectively forget that we used to rely on this plant for sustenance.
+
+As it turns out, garlic mustard outweighs all of our most common domesticated heavyweight greens like kale and spinach in terms of nutrient density. If you can’t beat ‘em, eat ‘em!
+
+A key element of “conservation through use,”  of which I am a firm proponent, is the understanding that we can have a positive impact on our local landscapes by becoming active participants. Do your part for your native wildflowers, and eat as much garlic mustard as you can stomach!
+
+### How:
+
+To gather young greens, you could simply cut the rosette at soil level, but you might consider uprooting the entire plant and at least disposing of the root where it will not be able to grow, if you don’t plan to consume it.
+
+As the plant matures, you can gather the top 6” of the flowering stalk before the flower buds open, and cook this as an asparagus-like vegetable.
+
+Garlic mustard greens are great in small quantities when consumed raw, but may be overpowering to some people’s palettes. 
+
+The flavor is something like bitter roasted garlic, perhaps an acquired taste, but one that’s worth acquiring in my opinion.
+
+Garlic mustard is best as a potherb, either sautéed in oil, added to soups, stews, omelettes and casseroles, or used to top pizzas — anywhere that will let its allium-like properties shine while neutralizing some of the more bitter notes.
+
+Seeds can be harvested by placing a bag over a mature plant and shaking the seeds into it. Extra care should be taken to avoid spreading the seeds while gathering. They can be ground into a wild mustard powder for seasoning.
+
+The root can be used as a substitute for horseradish.
+
+### Key characteristics:
+Smells distinctly like onions/garlic especially when crushed
+ark green kidney-shaped leaves, with prominent veins, becoming pointed and triangular as seeds mature
+Characteristic Brassicaceae raceme flower/seed pod pattern; white 4-petaled mustard flowers
+
+### Participation:
+
+Ecologically speaking, garlic mustard doesn’t play fair in North America for a few reasons: first, the insects that eat it in Eurasia are absent here; second, deer don’t like to eat it so they favor neighboring native species instead, opening up fresh new ground for invasion; third, garlic mustard’s roots produce a compound that inhibits the growth of soil fungi that many plants must associate with to grow; and finally, individual specimens have been observed producing upwards of 300 seeds each, which can remain viable for several years in the soil.
+
+All this, taken together, will have serious long-term consequences for the species composition of our woodlands for generations to come.
+ 
+This tender young spring growth is ideal for harvesting.
+
+Disastrous nuisance though it may be, garlic mustard is also a delicious and nutritious edible wild plant that we ought to be consuming in large quantities.
+
+Eat as much as you can through the growing season, and no matter which parts you’re harvesting, consider ripping the plants out entirely as you go.
+
+The whole plant is edible, from root to leaf to stem to flower to seed, so you might as well experiment with the different parts in different times of the season to see what you like best.
+
+When you come across a patch that is flowering and setting immature seed pods, you can mercilessly prune back the flower stalks to cut down on the proliferation of seeds. This will be much less effective than removing the whole plant, though, because the plants can often bounce back and send up new flowers before their season comes to an end.
+
+If we learned to love to eat garlic mustard as much as we adore wild blackberries, ramps, or morel mushrooms, I think we could make real strides towards keeping the plant’s populations in check. And if nothing else, we might as well take advantage of all of this nutritious food that our predecessors left here for us.
+ 
+### Lookalikes:
+
+The foliage of A. petiolata bears a passing resemblance to ground ivy (Glechoma hederacea) and violets (Viola spp.). Thankfully, both are edible, so it’s not a big deal if you make a mistake here.
+
+The distinct allium scent when you crush garlic mustard foliage is a giveaway, though. You won’t find any other plant that looks and smells like garlic mustard. 
+
+Ground ivy, also known as Creeping Charlie, is a sprawling ground-cover vine in the mint family. It has a very similar leaf shape with distinct venation, but they are borne from a vine rather than a basal rosette, and its purple flowers look nothing like mustard flowers. When not in bloom, it is still easy to differentiate thanks to its growth habit as a vine and its square stems.
+
+Ground ivy is not my favorite food in the world, but it does have a history of traditional use as a medicine. And another one of its common names, alehoof, derives from the fact that it used to be a common ingredient in the brewing of ale in Europe, until the introduction of hops in the late 15th century – when beer was born.
+
+Violets also have similar-looking leaves, but they lack the lobed margins and deep venation of garlic mustard. Violets have distinctly different flowers as well, and will never send up a flower stalk that looks anything like garlic mustard’s. 
+
+There are many species of wild Viola found throughout North America, with flowers in various shades of yellow, purple, and white. All are edible.
+
+
+
+
+
+

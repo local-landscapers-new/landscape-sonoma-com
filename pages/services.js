@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 const services = () => {
   return (
     <Layout pages>
-     testing
+     <ServicesBlock />
     </Layout>
   )
 }

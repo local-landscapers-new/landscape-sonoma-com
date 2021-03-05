@@ -1,6 +1,4 @@
-import Image from 'next/image'
-
-const Hero = () => {
+const HeroBlock = () => {
   return (
     <header className="text-gray-500 border-b border-t border-gray-500">
       <div className="bg-hero h-1/2">              
@@ -15,4 +13,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default HeroBlock

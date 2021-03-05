@@ -3,17 +3,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Nav from './Nav'
 import Logo from './Logo'
-import HeroBlock from './HeroBlock'
-import Line from './Line'
-import IntroBlock from './IntroBlock'
-import ServicesBlock from './ServicesBlock'
-import TestimonialsBlock from './TestimonialsBlock'
-import AboutBlock from './AboutBlock'
 import Footer from './Footer'
 
 export const siteTitle = 'Local Landscapers'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, pages }) {
   return (
     <>
       <Head>
@@ -38,45 +32,8 @@ export default function Layout({ children, home }) {
       <Logo />
       <Nav />
 
-      {home ? (
-      <>
-      <HeroBlock />
+      {children}
       
-
-      <Line />
-      <IntroBlock />
-      <ServicesBlock />
-      <Line />
-
-      <section id="portfolio" class="p-5 m-2 text-center container mx-auto max-w-5xl">
-      
-        <h2 class="text-4xl sm:text-6xl uppercase font-bold tracking-wider py-2 my-2">Our Portfolio</h2>
-
-
-        <div class="sm:grid sm:grid-cols-2">
-
-          {children}
-
-        </div>
-
-        <div class="m-4">
-          <div class="bg-gray-900 rounded-sm strong-shadow p-2">
-            <p class="text-xl py-2 my-2">
-              <a class="text-gray-300" href="#">See more of our favorite projects</a>
-            </p>
-
-            
-          </div>
-        </div>
-
-      </section>
-
-      <Line />
-      <TestimonialsBlock />
-      <AboutBlock />
-
-      </>
-      ) : null }
       
       
 

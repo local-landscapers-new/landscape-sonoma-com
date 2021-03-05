@@ -7,18 +7,50 @@
         "placeholder": "unique-identifier-for-blog-post-url"
       }
     },
+    "heroimage": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "heroimage"
+      }
+    },
     "title": {
       "type": "StructuredText",
       "config": {
-        "single": "heading1",
+        "single": "heading2",
         "label": "Title",
-        "placeholder": "Blog Post Title..."
+        "placeholder": "Project Name..."
       }
     },
     "date": {
       "type": "Date",
       "config": {
         "label": "Date"
+      }
+    },
+    "image2": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "image2"
+      }
+    },
+    "image3": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "image3"
+      }
+    },
+    "image4": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "image4"
       }
     },
     "post_body": {

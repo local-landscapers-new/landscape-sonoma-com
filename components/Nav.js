@@ -7,7 +7,7 @@ function NavItem({ location, label }) {
     <li className="mx-3 my-1">
       <Link
         href={location}
-        className="hover:text-gray-300"
+        className="hover:text-gray-500"
       >
         {label}
       </Link>

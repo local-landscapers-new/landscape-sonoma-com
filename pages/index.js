@@ -11,6 +11,7 @@ import IntroBlock from '../components/IntroBlock'
 import ServicesBlock from '../components/ServicesBlock'
 import TestimonialsBlock from '../components/TestimonialsBlock'
 import AboutBlock from '../components/AboutBlock'
+import ContactBlock from '../components/ContactBlock'
 
 export default function Home(props) {
   return (
@@ -43,6 +44,7 @@ export default function Home(props) {
     <Line />
     <TestimonialsBlock />
     <AboutBlock />
+    <ContactBlock />
     </Layout>
   )
 }

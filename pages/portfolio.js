@@ -9,9 +9,8 @@ import { client } from "../prismic-configuration";
 export default function services(props) {
   return (
     <Layout pages>
-     <div className="mx-auto">
-      portfolio page
-      </div>
+     portfolio
     </Layout>
   )
 }
+

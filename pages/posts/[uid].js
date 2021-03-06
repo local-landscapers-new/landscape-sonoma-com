@@ -7,9 +7,13 @@ export default function Post({ data }) {
   return (
     <Layout>
       <article>
+        <img src={data.heroimage.url} />
+        <img src={data.image2.url} />
+        <img src={data.image3.url} />
         <header>{RichText.asText(data.title)}</header>
         <main>{RichText.asText(data.post_body)}</main>
       </article>
+
       </Layout>
   )
 }

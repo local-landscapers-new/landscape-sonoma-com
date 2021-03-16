@@ -1,16 +1,36 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import Link from 'next/link'
-import Image from 'next/image'
-import Prismic from "prismic-javascript";
-import { RichText } from "prismic-reactjs";
-import { client } from "../prismic-configuration";
+import { getPosts } from "../lib/posts";
+import Link from "next/link";
+import Layout from "../components/layout";
 
-export default function services(props) {
-  return (
-    <Layout pages>
-     portfolio
-    </Layout>
-  )
+const Portfolio = (props) => (
+  <Layout>
+  <ul>
+    {props.posts.map((post) => (
+      <li key={post.id}>
+        <Link href={`/posts/${post.slug}`}>
+          <a>
+            {post.title}
+          </a>
+        </Link>
+      </li>
+    ))}
+  </ul>
+  </Layout>
+);
+
+export default Portfolio;
+
+export async function getStaticProps(context) {
+  const posts = await getPosts();
+
+  if (!posts) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: { posts },
+    revalidate: 10,
+  };
 }
-

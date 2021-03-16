@@ -1,12 +1,12 @@
-import TestimonialsBlock from '../components/TestimonialsBlock'
-import Layout from '../components/layout'
+import TestimonialsBlock from "../components/TestimonialsBlock";
+import Layout from "../components/layout";
 
 const testimonials = () => {
   return (
     <Layout pages>
-     <TestimonialsBlock />
+      <TestimonialsBlock />
     </Layout>
-  )
-}
+  );
+};
 
-export default testimonials
+export default testimonials;

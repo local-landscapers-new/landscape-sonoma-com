@@ -1,8 +1,10 @@
+import Line from './Line';
+
 const IntroBlock = () => {
   return (
-    <main id="intro" className="sm:w-3/4 p-10 m-2 text-center container mx-auto max-w-5xl">
-        <div className="">
-        <h1 className="text-4xl sm:text-6xl uppercase font-bold tracking-wider py-2 my-2">Local Landscapers</h1>
+    <main id="intro" className="sm:w-3/4 p-10 m-20 text-center container mx-auto max-w-5xl">
+        <Line />
+        <h1 className="text-4xl sm:text-6xl uppercase font-bold tracking-wider py-2 my-10">Local Landscapers</h1>
         <p className="text-3xl sm:text-4xl font-thin py-2 my-2">
           
           This is a catchy tagline that explains who we are and what we do.
@@ -19,7 +21,7 @@ const IntroBlock = () => {
 
         </button>
 
-        </div>
+
       </main>
   )
 }

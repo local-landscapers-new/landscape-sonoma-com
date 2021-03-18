@@ -48,11 +48,9 @@ function Nav() {
                   <NavItem location="/contact" label="Contact" />
                 </ul>
               ) : (
-                <button onClick={() => setOpen(true)} className="mx-auto">
-                  <svg className="w-7 h-7 my-1 mx-auto fill-current text-gray-50">
-                    <use xlinkHref="/assets/icons/menu.svg#icon-menu" />
-                  </svg>
-                </button>
+
+                    <img onClick={() => setOpen(true)} className="mx-auto my-1 h-7 w-7" src="/images/menu.svg" />
+
               )}
             </li>
           </ul>

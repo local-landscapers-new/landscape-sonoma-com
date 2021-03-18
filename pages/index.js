@@ -7,7 +7,7 @@ import Line from "../components/Line";
 import HeroBlock from "../components/HeroBlock";
 import IntroBlock from "../components/IntroBlock";
 import ServicesBlock from "../components/ServicesBlock";
-import Portfolio from './portfolio';
+import Portfolio from "./portfolio";
 import TestimonialsBlock from "../components/TestimonialsBlock";
 import AboutBlock from "../components/AboutBlock";
 import ContactBlock from "../components/ContactBlock";
@@ -23,35 +23,42 @@ export default function Home(props) {
         <IntroBlock />
         <ServicesBlock />
         <Line />
-        <section id="portfolio" className="p-5 m-2 text-center container mx-auto max-w-5xl">
-      
-      <h2 className="text-4xl sm:text-6xl uppercase font-bold tracking-wider py-2 my-2">Our Portfolio</h2>
+        <section
+          id="portfolio"
+          className="p-5 m-2 text-center container mx-auto"
+        >
+          <h2 className="text-4xl sm:text-6xl uppercase font-bold tracking-wider py-2 my-2">
+            Our Portfolio
+          </h2>
 
+          <div classname="flex flex-row">
+            {props.posts.map((post) => (
+              <div className="bg-gray-900 rounded-sm strong-shadow m-4 p-2 flex flex-col items-center img__wrap max-w-md">
+                <Link href={`/posts/${post.slug}`}>
+                  <a>
+                    <img
+                      src={post.feature_image}
+                      className="img__img w-7/8 h-7/8"
+                    />
+                    <p class="block h-full img__description font-light italic text-2xl sm:text-4xl text-center tracking-wider text-gray-50">
+                      {post.title}
+                    </p>
+                  </a>
+                </Link>
+              </div>
+            ))}
+          </div>
 
-      <div classname="sm:grid sm:grid-cols-2">
-      <div className="bg-gray-900 rounded-sm strong-shadow m-4 p-2 flex flex-col items-center img__wrap">>
-    {props.posts.map((post) => (
-
-        <Link href={`/posts/${post.slug}`}>
-        <a>
-          <img src={post.feature_image} className="img__img w-7/8 h-7/8" />
-          <p class="block h-full img__description font-light italic text-2xl sm:text-4xl text-center tracking-wider text-gray-50">{post.title}</p></a>
-        </Link>
-    ))}
-  </div>
-
-      <div class="m-4">
-        <div class="bg-gray-900 rounded-sm strong-shadow p-2">
-          <p class="text-xl py-2 my-2">
-            <a class="text-gray-300" href="#">See more of our favorite projects</a>
-          </p>
-
-          
-        </div>
-      </div>
-</div>
-
-       </section>
+          <div class="m-4">
+            <div class="bg-gray-900 rounded-sm strong-shadow p-2">
+              <p class="text-xl py-2 my-2">
+                <a class="text-gray-300" href="#">
+                  See more of our favorite projects
+                </a>
+              </p>
+            </div>
+          </div>
+        </section>
         <Line />
         <TestimonialsBlock />
         <AboutBlock />
@@ -60,7 +67,6 @@ export default function Home(props) {
     </>
   );
 }
-
 
 export async function getStaticProps(context) {
   const posts = await getPosts();

@@ -9,7 +9,8 @@ const Portfolio = (props) => (
       <li key={post.id}>
         <Link href={`/posts/${post.slug}`}>
           <a>
-            {post.title}
+          <img src={post.feature_image} />
+          <h3>{post.title}</h3>
           </a>
         </Link>
       </li>

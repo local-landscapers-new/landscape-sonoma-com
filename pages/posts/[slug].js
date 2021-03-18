@@ -1,12 +1,14 @@
 import { getSinglePost, getPosts } from "../../lib/posts";
+import Layout from "../../components/layout"
 
 const PostPage = (props) => {
   return (
-    <div>
-      <img src={props.post.feature_image} />
+    <Layout>
       <h1>{props.post.title}</h1>
+      <img src={props.post.feature_image} />
+      
       <div dangerouslySetInnerHTML={{ __html: props.post.html }} />
-    </div>
+    </Layout>
   );
 };
 

@@ -75,3 +75,13 @@
   visibility: visible;
   opacity: 1;
 }
+
+.postPage .kg-gallery-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.postPage .kg-gallery-image {
+  max-width: 30%;
+}

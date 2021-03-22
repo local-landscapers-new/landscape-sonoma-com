@@ -4,10 +4,10 @@ import Layout from "../../components/layout"
 const PostPage = (props) => {
   return (
     <Layout>
-      <h1>{props.post.title}</h1>
-      <img src={props.post.feature_image} />
+      <h1 className="postPage">{props.post.title}</h1>
+      <img className="postPage" src={props.post.feature_image} />
       
-      <div dangerouslySetInnerHTML={{ __html: props.post.html }} />
+      <div className="postPage" dangerouslySetInnerHTML={{ __html: props.post.html }} />
     </Layout>
   );
 };

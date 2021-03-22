@@ -1,6 +1,6 @@
 const ServicesBlock = () => {
   return (
-    <section id="services" className="p-5 m-2 text-center container mx-auto bg-gray-900">
+    <section id="services" className="p-5 text-center container mx-auto bg-gray-900">
       
       <h2 className="text-4xl sm:text-6xl uppercase font-bold tracking-wider py-2 my-5 text-gray-50">Our Services</h2>
 

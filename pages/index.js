@@ -7,7 +7,6 @@ import Line from "../components/Line";
 import HeroBlock from "../components/HeroBlock";
 import IntroBlock from "../components/IntroBlock";
 import ServicesBlock from "../components/ServicesBlock";
-import Portfolio from "./portfolio";
 import TestimonialsBlock from "../components/TestimonialsBlock";
 import AboutBlock from "../components/AboutBlock";
 import ContactBlock from "../components/ContactBlock";
@@ -31,9 +30,10 @@ export default function Home(props) {
             Our Portfolio
           </h2>
 
-          <div classname="flex flex-row">
+          
             {props.posts.map((post) => (
-              <div className="bg-gray-900 rounded-sm strong-shadow m-4 p-2 flex flex-col items-center img__wrap max-w-md">
+              <div classname="md:grid md:grid-cols-2">
+              <div className="bg-gray-900 rounded-sm strong-shadow m-4 p-2 flex flex-col items-center img__wrap">
                 <Link href={`/posts/${post.slug}`}>
                   <a>
                     <img
@@ -46,8 +46,9 @@ export default function Home(props) {
                   </a>
                 </Link>
               </div>
+              </div>
             ))}
-          </div>
+
 
           <div class="m-4">
             <div class="bg-gray-900 rounded-sm strong-shadow p-2">

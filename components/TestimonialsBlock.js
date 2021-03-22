@@ -6,7 +6,7 @@ const TestimonialsBlock = () => {
       <h2 className="text-4xl sm:text-6xl uppercase font-bold tracking-wider py-2 my-2">Testimonials</h2>
 
       <div className="md:grid md:grid-cols-2">
-        <div className="text-gray-50 bg-gray-900 rounded-sm strong-shadow m-4 p-5">
+        <div className="text-gray-50 bg-gray-900 rounded-md strong-shadow m-4 p-5">
   
           <h4 className="text-3xl sm:text-4xl font-bold text-gray-50 py-2 my-2">"They're the best!"</h4>
 
@@ -20,7 +20,7 @@ const TestimonialsBlock = () => {
           </p>
         </div>
   
-        <div className="text-gray-50 bg-gray-900 rounded-sm strong-shadow m-4 p-5">
+        <div className="text-gray-50 bg-gray-900 rounded-md strong-shadow m-4 p-5">
   
           <h4 className="text-3xl sm:text-4xl font-bold text-gray-50 py-2 my-2">"They're the best!"</h4>
 

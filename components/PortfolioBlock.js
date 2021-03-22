@@ -16,7 +16,7 @@ export default function PortfolioBlock(props) {
 
     <div classname="flex flex-row">
       {props.posts.map((post) => (
-        <div className="bg-gray-900 rounded-sm strong-shadow m-4 p-2 flex flex-col items-center img__wrap max-w-md">
+        <div className="bg-gray-900 rounded-md strong-shadow m-4 p-2 flex flex-col items-center img__wrap max-w-md">
           <Link href={`/posts/${post.slug}`}>
             <a>
               <img
@@ -33,7 +33,7 @@ export default function PortfolioBlock(props) {
     </div>
 
     <div class="m-4">
-      <div class="bg-gray-900 rounded-sm strong-shadow p-2">
+      <div class="bg-gray-900 rounded-md strong-shadow p-2">
         <p class="text-xl py-2 my-2">
           <a class="text-gray-300" href="#">
             See more of our favorite projects

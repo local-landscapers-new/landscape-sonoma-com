@@ -6,14 +6,14 @@ const ContactBlock = () => {
           Contact Us
         </h2>
         <div className="md:grid md:grid-cols-2">
-          <div className="text-gray-50 bg-gray-900 rounded-sm strong-shadow m-4 p-5">
+          <div className="text-gray-50 bg-gray-900 rounded-md strong-shadow m-4 p-5">
             <p className="sm:text-xl font-light p-2 my-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
               earum!
             </p>
           </div>
 
-          <div className="text-gray-50 bg-gray-900 rounded-sm strong-shadow m-4 p-5">
+          <div className="text-gray-50 bg-gray-900 rounded-md strong-shadow m-4 p-5">
             <p className="sm:text-xl font-light p-2 my-2">Address</p>
 
             <p className="sm:text-xl font-light p-2 my-2">Phone number</p>

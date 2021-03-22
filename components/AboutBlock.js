@@ -8,7 +8,7 @@ const AboutBlock = () => {
 
         <div className="md:grid md:grid-cols-2">
 
-          <div className="bg-gray-900 rounded-sm strong-shadow m-4 p-2 flex flex-col items-center h-half">
+          <div className="bg-gray-900 rounded-md strong-shadow m-4 p-2 flex flex-col items-center h-half">
             <img className="w-full h-full" src="" />
 
           </div>

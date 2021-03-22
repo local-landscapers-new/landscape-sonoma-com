@@ -32,7 +32,7 @@ export default function Home(props) {
           <div className="md:grid md:grid-cols-2">
             {props.posts.map((post) => (
               <div
-                className="bg-gray-900 rounded-sm strong-shadow m-4 p-2 img__wrap inline-block"
+                className="bg-gray-900 rounded-md strong-shadow m-4 p-2 img__wrap inline-block"
                 key={post.id}
               >
                 <Link href={`/posts/${post.slug}`}>
@@ -48,7 +48,7 @@ export default function Home(props) {
           </div>
 
           <div class="m-4">
-            <div class="bg-gray-900 rounded-sm strong-shadow p-2">
+            <div class="bg-gray-900 rounded-md strong-shadow p-2">
               <p class="text-xl py-2 my-2">
                 <a class="text-gray-300" href="#">
                   See more of our favorite projects
@@ -59,7 +59,9 @@ export default function Home(props) {
         </section>
         <Line />
         <TestimonialsBlock />
+        <Line />
         <AboutBlock />
+        <Line />
         <ContactBlock />
       </Layout>
     </>

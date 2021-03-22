@@ -1,11 +1,11 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Image from 'next/image'
-import Nav from './Nav'
-import Logo from './Logo'
-import Footer from './Footer'
+import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
+import Nav from "./Nav";
+import Logo from "./Logo";
+import Footer from "./Footer";
 
-export const siteTitle = 'Local Landscapers'
+export const siteTitle = "Local Landscapers";
 
 export default function Layout({ children, home, pages }) {
   return (
@@ -24,28 +24,22 @@ export default function Layout({ children, home, pages }) {
         />
       </Head>
 
-
       <div className="body-font antialiased text-lg text-black bg-gray-300">
+        <Logo />
+        <Nav />
 
-      <Logo />
-      <Nav />
+        {children}
 
-      {children}
-      
-      
-      
+        {!home && (
+          <div className="p-5">
+            <Link href="/">
+              <a>← Back to home</a>
+            </Link>
+          </div>
+        )}
 
-      {!home && (
-        <div className="p-5">
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
-
-    <Footer />
-
-    </div>
+        <Footer />
+      </div>
     </>
-  )
+  );
 }

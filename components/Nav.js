@@ -48,9 +48,11 @@ function Nav() {
                   <NavItem location="/contact" label="Contact" />
                 </ul>
               ) : (
-
-                    <img onClick={() => setOpen(true)} className="mx-auto my-1 h-7 w-7" src="/images/menu.svg" />
-
+                <img
+                  onClick={() => setOpen(true)}
+                  className="mx-auto my-1 h-7 w-7"
+                  src="/images/menu.svg"
+                />
               )}
             </li>
           </ul>

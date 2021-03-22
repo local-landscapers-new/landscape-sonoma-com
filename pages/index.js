@@ -29,26 +29,23 @@ export default function Home(props) {
           <h2 className="text-4xl sm:text-6xl uppercase font-bold tracking-wider py-2 my-2">
             Our Portfolio
           </h2>
-
-          
+          <div className="md:grid md:grid-cols-2">
             {props.posts.map((post) => (
-              <div classname="md:grid md:grid-cols-2">
-              <div className="bg-gray-900 rounded-sm strong-shadow m-4 p-2 flex flex-col items-center img__wrap">
+              <div
+                className="bg-gray-900 rounded-sm strong-shadow m-4 p-2 img__wrap inline-block"
+                key={post.id}
+              >
                 <Link href={`/posts/${post.slug}`}>
                   <a>
-                    <img
-                      src={post.feature_image}
-                      className="img__img w-7/8 h-7/8"
-                    />
-                    <p class="block h-full img__description font-light italic text-2xl sm:text-4xl text-center tracking-wider text-gray-50">
+                    <img src={post.feature_image} className="w-7/8 h-7/8" />
+                    <p class="img__description font-light italic text-2xl sm:text-4xl text-center tracking-wider text-gray-50">
                       {post.title}
                     </p>
                   </a>
                 </Link>
               </div>
-              </div>
             ))}
-
+          </div>
 
           <div class="m-4">
             <div class="bg-gray-900 rounded-sm strong-shadow p-2">
